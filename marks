@@ -1,0 +1,48 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main(){
+int marks;
+int Grade;
+//printf("Grade is  ");
+//scanf("%d", &Grade);
+printf("Enter marks:  ");
+scanf("%d",&marks);
+if (marks>84)
+{
+    Grade = "A";
+}
+else if(marks>69)
+{
+ Grade = "B";
+}
+else if (marks>54)
+{
+    Grade= "C";
+}
+else if(marks>39)
+{
+    Grade= "D";
+}
+else if(marks<40)
+{
+ Grade = "F";
+}
+printf("%d\n", Grade);
+
+return 0;
+}
+    
+
+
+
+
+
+
+
+   // printf("%s", n=85-100? "GradeA"
+    //(n=70-84?"Grade B":
+   // (n=55-69? "GradeC":
+    //(n=40-54? "Grade D"
+    //(n<40 "GradeF"))));
+    
+
